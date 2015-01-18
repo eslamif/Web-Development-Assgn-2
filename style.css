@@ -1,0 +1,78 @@
+/************** TABLE STYLING ***************/
+table {
+	border-collapse: collapse;
+	width: 75%;
+}
+
+table, td, th {
+	border: 1px solid black;
+}
+
+table td.columnHeader {
+	font-style: italic;
+}
+
+table tbody tr > td:nth-child(2){
+	color: red;
+} 
+
+table tbody tr > td:nth-child(4) {
+	color: blue;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: #90EE90;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #ADD8E6;
+}
+
+
+/*************** DL LIST STYLING ****************/
+
+dt:hover + dd { /*apply rule to next sibling (dd) of a hovered dt*/
+	background-color: purple;
+/* Reference: https://oregonstate.instructure.com/courses/1498916/discussion_topics/7515928 */
+}
+
+/*************** DIV Container ****************/
+div {
+	display: block;
+}
+
+div.outer-content {
+	width: 75%;	
+	padding: 15px;
+	margin-top: 20px;
+	margin-left: 0px;
+	background-color: pink;
+}
+
+div.inner-content {
+	width: 75%;	
+	padding: 0px;
+	border: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: blue;
+}
+
+
+/*************** FORMS ****************/
+fieldset {
+	margin: 5px;
+}
+
+
+/*************** PARAGRAPHS ****************/
+section img {
+	float: left;
+	margin-right: 5px;
+	width: 100px;
+	height: 125px;
+}
+
+
+

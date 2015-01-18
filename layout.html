@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>5-Day Workout Plan</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>	
+		<!-- ********************* Requirement: create a 6x6 table ********************* -->
+		<table>
+			<caption>5-Day Workout Plan. Cells indicate the number of reps and sets for a given body part and day </caption>
+			<thead>
+				<tr>
+					<th></th>
+					<th>MON</th>
+					<th>TUE</th>
+					<th>WED</th>
+					<th>THU</th>
+					<th>FRI</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td class="columnHeader">Chest/Back</td>
+					<td>10 reps, 3 sets</td>
+					<td>Rest</td>
+					<td>10 reps, 3 sets</td>
+					<td>Rest</td>
+					<td>Rest</td>
+				</tr>
+				<tr>
+					<td class="columnHeader">Shoulders/Shrugs</td>
+					<td>Rest</td>
+					<td>12 reps, 3 sets</td>
+					<td>Rest</td>
+					<td>12 reps, 3 sets</td>
+					<td>Rest</td>			
+				</tr>
+				<tr>
+					<td class="columnHeader">Biceps/Triceps</td>
+					<td>Rest</td>
+					<td>10 reps, 3 sets</td>
+					<td>Rest</td>
+					<td>10 reps, 3 sets</td>
+					<td>Rest</td>			
+				</tr>
+				<tr>
+					<td class="columnHeader">Legs</td>
+					<td>Rest</td>
+					<td>Rest</td>
+					<td>Rest</td>
+					<td>Rest</td>
+					<td>10 reps, 4 sets</td>			
+				</tr>
+				<tr>
+					<td class="columnHeader">Abs</td>
+					<td>50 reps, 3 sets</td>
+					<td>50 reps, 3 sets</td>
+					<td>50 reps, 3 sets</td>
+					<td>50 reps, 3 sets</td>
+					<td>50 reps, 3 sets</td>				
+				</tr>	
+			</tbody>		
+			
+			<tfoot>
+				<tr>
+					<td colspan="2">Footer 1</td>
+					<td colspan="4">Footer 2</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+		
+		<!-- ********************* Requirement: DL List ********************* -->		
+		<dl>
+			<dt>Back Exercises</dt>
+			<dd>Pull-ups, seated rows.</dd>
+			
+			<dt>Chest Exercises</dt>
+			<dd>Bench press, dumbbell flyes.</dd>	
+			
+			<dt>Legs Exercises</dt>
+			<dd>Squads, stiff-legs, lunges</dd>					
+		</dl>
+		
+		
+		<!-- ********************* Requirement: DIV Containers ********************* -->
+		<div class="outer-content">
+			<div class="inner-content">
+				Here is some text.
+			</div>
+		</div>
+		
+		
+		<!-- ********************* Requirement: GET FORM ********************* -->
+		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php"
+		method="get">
+			<fieldset>
+			<legend>Some GET Data</legend>
+				<fieldset><label>Enter Text: <input type="text" name="text_input"> </label></fieldset>
+				<fieldset><label>Enter Number: <input type="number" name="numerical_input"> </label></fieldset>
+				<fieldset><label>Enter Password: <input type="password" name="password_input"> </label></fieldset>
+				
+				<fieldset>
+				<legend>Select between:</legend>
+				<p><input type="radio" name="candy" value="snickers">Snickers</p>
+				<p><input type="radio" name="candy" value="skittles">Skittles</p>	
+				<p><input type="radio" name="candy" value="mentos">Mentos</p>
+				
+				<button type="submit">Submit</button>
+				</fieldset>
+			</fieldset>
+		</form>				
+		
+		<br>
+		
+		<!-- ********************* Requirement: POST FORM ********************* -->
+		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php"
+		method="post">
+			<fieldset>
+			<legend>Some POST Data</legend>
+				<fieldset><label>Enter Text: <input type="text" name="text_input"> </label></fieldset>
+				<fieldset><label>Enter Number: <input type="number" name="numerical_input"> </label></fieldset>
+				<fieldset><label>Enter Password: <input type="password" name="password_input"> </label></fieldset>
+				
+				<fieldset>
+				<legend>Select between:</legend>
+				<p><input type="radio" name="candy" value="snickers">Snickers</p>
+				<p><input type="radio" name="candy" value="skittles">Skittles</p>	
+				<p><input type="radio" name="candy" value="mentos">Mentos</p>
+				
+				<button type="submit">Submit</button>				
+				</fieldset>
+			</fieldset>
+		</form>					
+				
+				
+	<!-- ********************* Requirement: PARAGRAPHS ********************* -->
+		<section>
+			<img src="Linus.jpg" alt="Linus Torvalds">
+			<p>Linus Benedict Torvalds: born December 28, 1969, is a Finnish American[2][6] software engineer, who was 
+				the principal force behind the development of the Linux kernel that became the most popular kernel for 
+				operating systems. He later became the chief architect of the Linux kernel and now acts as the project's 
+				coordinator. He also created the revision control system Git as well as the diving log software 
+				Subsurface. He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the 
+				Technology Academy Finland "in recognition of his creation of a new open source operating system for 
+				computers leading to the widely used Linux kernel".[7] He is also the recipient of the 2014 IEEE Computer 
+				Society Computer Pioneer Award.	
+				<br>
+				<a href="http://en.wikipedia.org/wiki/Linus_Torvalds">Reference - Linus Wiki</a> </p>
+				
+			<p>Famous Linus quotes:<br>
+			Really, I’m not out to destroy Microsoft. That will just be a completely unintentional side effect.<br>
+			Only wimps use tape backup: _real_ men just upload their important stuff on ftp, and let the rest of the world mirror it ;)<br>
+			Software is like sex; it’s better when it’s free.<br>
+			An infinite number of monkeys typing into GNU emacs would never make a good program.<br>
+			Talk is cheap. Show me the code.<br>
+			Those that can, do. Those that can’t, complain.<br>
+			You see. I don’t think any new thoughts. I think thoughts that other people have thought, and I rearrange them.<br>
+			<a href="http://www.linuxscrew.com/2007/10/14/fun-linus-torvalds-quotes-top-10/">Reference - Linus Quotes</a> </p>
+		</section>				
+	</body>
+</html>
